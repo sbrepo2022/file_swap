@@ -1,0 +1,284 @@
+QScrollBar:vertical {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 15px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #00406b, stop: 1 #00305b);
+    border-radius: 5px;
+    min-height: 20px;
+    margin: 0px 2px 0px 2px;
+}
+QScrollBar::add-line:vertical {
+    background: none;
+    height: 0px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    background: none;
+    height: 0px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar:horizontal {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 15px;
+    margin: 0px;
+}
+QScrollBar::handle:horizontal {
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #00406b, stop: 1 #00305b);
+    border-radius: 5px;
+    min-width: 20px;
+    margin: 2px 0px 2px 0px;
+}
+QScrollBar::add-line:horizontal {
+    background: none;
+    width: 0px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+    background: none;
+    width: 0px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+#centralWidget {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#mainWidget {
+    background-color: #00406b;
+}
+
+#windowToolsWidget {
+    background-color: #20608b;
+}
+
+#toolsWidget {
+    background-color: #00305b;
+}
+
+#headerLabel {
+    color: #ffffff;
+    image: url(:/textures/header.png);
+}
+
+#quitButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+    border: 0px;
+    image: url(:/textures/cross.png);
+}
+
+#quitButton:hover {
+    image: url(:/textures/cross2.png);
+}
+
+#hideButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+    border: 0px;
+    image: url(:/textures/stick.png);
+}
+
+#hideButton:hover {
+    image: url(:/textures/stick2.png);
+}
+
+#toolsButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+    border: 0px;
+    image: url(:/textures/tools.png);
+}
+
+#toolsButton:hover {
+   background-color: rgba(0, 0, 0, 40);
+}
+
+#personalSettingsButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+    border: 0px;
+    image: url(:/textures/personalise.png);
+}
+
+#personalSettingsButton:hover {
+    background-color: rgba(0, 0, 0, 40);
+}
+
+#getButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 25px;
+    border: 0px;
+    image: url(:/textures/getFile.png);
+}
+
+#getButton:hover {
+    image: url(:/textures/getFile2.png);
+}
+
+
+#sendButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 25px;
+    border: 0px;
+    image: url(:/textures/sendFile.png);
+}
+
+#sendButton:hover {
+    image: url(:/textures/sendFile2.png);
+}
+
+#descriptionSwitchButton {
+    background-color: #00305b;
+
+    margin: 1px;
+    margin-top: 3px;
+    margin-right: 0px;
+    padding: 4px;
+
+    border: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    image: url(:/textures/pencil_unchecked.png);
+}
+
+#filesSwitchButton {
+    background-color: #00305b;
+
+    margin: 1px;
+    margin-top: 3px;
+    margin-left: 0px;
+    padding: 4px;
+
+    border: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    image: url(:/textures/files_unchecked.png);
+}
+
+#descriptionSwitchButton:checked {
+    background-color: #20608b;
+
+    image: url(:/textures/pencil_checked.png);
+}
+
+#filesSwitchButton:checked {
+    background-color: #20608b;
+
+    image: url(:/textures/files_checked.png);
+}
+
+#back1Button, #back2Button {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    border: 0px;
+    image: url(:/textures/back_arrow.png);
+}
+
+#back1Button:hover, #back2Button:hover {
+    padding: 4px;
+}
+
+#onlineCheckBox:unchecked {
+    color: #aaa;
+}
+
+#onlineCheckBox:checked {
+    color: #fff;
+}
+
+#onlineCheckBox::indicator:unchecked {
+    image: url(:/textures/red.png);
+}
+
+#onlineCheckBox::indicator:checked {
+    image: url(:/textures/green.png);
+}
+
+#descriptionEdit {
+    background-color: #20608b;
+    color: #fff;
+
+    margin: 3px;
+    margin-bottom: 0px;
+    padding: 5px;
+
+    border-width: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#maxSumbolsLabel {
+    background-color: #20608b;
+    color: #fff;
+
+    margin: 3px;
+    margin-top: 0px;
+    padding: 2px;
+
+    border-width: 0px;
+}
+
+#addFileLabel {
+    color: #fff;
+}
+
+#addFileButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+    border: 0px;
+    image: url(:/textures/add_file.png);
+}
+
+#addFileButton:hover {
+    padding: 3px;
+}
+
+#deleteFileButton {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+    border: 0px;
+    image: url(:/textures/delete_file.png);
+}
+
+#deleteFileButton:hover {
+    padding: 3px;
+}
+
+#filesToolbarWidget {
+    background-color: #20608b;
+
+    margin: 3px;
+    margin-top: 0px;
+
+    border-width: 0px;
+}
+
+#connectionsListWidget, #filesListWidget {
+    background-color: #20608b;
+    color: #fff;
+
+    margin: 3px;
+    padding: 5px;
+
+    border-width: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#filesListWidget {
+    margin-bottom: 0px;
+}
+

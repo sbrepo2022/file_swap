@@ -1,0 +1,50 @@
+#MessageOverlay, #outerWidget {
+    background-color: rgba(0, 0, 0, 100);
+}
+
+#messageWidget {
+    background-color: #fff;
+
+    border: solid;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#messageLine{
+    border: solid;
+    border-color: #888;
+    border-width: 2px;
+}
+
+#titleLabel {
+    color: #222;
+}
+
+#messageLabel {
+    color: #333;
+}
+
+#okButton {
+    background-color: #eee;
+
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #bbb;
+
+    color: #000;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#okButton:hover {
+    background-color: #ddd;
+    border-color: #aaa;
+}
+
+#okButton:pressed {
+    background-color: #aaa;
+}

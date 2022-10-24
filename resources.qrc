@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.css</file>
+        <file>overlay_style.css</file>
+        <file>message_overlay_style.css</file>
+        <file>password_overlay_style.css</file>
+        <file>textures/cross.png</file>
+        <file>textures/cross2.png</file>
+        <file>textures/cross3.png</file>
+        <file>textures/add_file.png</file>
+        <file>textures/delete_file.png</file>
+        <file>textures/stick.png</file>
+        <file>textures/stick2.png</file>
+        <file>textures/header.png</file>
+        <file>textures/tools.png</file>
+        <file>textures/personalise.png</file>
+        <file>textures/getFile.png</file>
+        <file>textures/getFile2.png</file>
+        <file>textures/sendFile.png</file>
+        <file>textures/sendFile2.png</file>
+        <file>textures/pencil_checked.png</file>
+        <file>textures/pencil_unchecked.png</file>
+        <file>textures/files_checked.png</file>
+        <file>textures/files_unchecked.png</file>
+        <file>textures/back_arrow.png</file>
+        <file>textures/red.png</file>
+        <file>textures/green.png</file>
+        <file>textures/show_password.png</file>
+        <file>textures/show_password2.png</file>
+        <file>fonts/SF-UI-Display-Regular.ttf</file>
+        <file>fonts/SF-UI-Text-Regular.ttf</file>
+    </qresource>
+</RCC>

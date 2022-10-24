@@ -1,0 +1,161 @@
+QScrollBar:vertical {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 15px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #dddddd, stop: 1 #cdcdcd);
+    border-radius: 5px;
+    min-height: 20px;
+    margin: 0px 2px 0px 2px;
+}
+QScrollBar::add-line:vertical {
+    background: none;
+    height: 0px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    background: none;
+    height: 0px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar:horizontal {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 15px;
+    margin: 0px;
+}
+QScrollBar::handle:horizontal {
+    background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #dddddd, stop: 1 #cdcdcd);
+    border-radius: 5px;
+    min-width: 20px;
+    margin: 2px 0px 2px 0px;
+}
+QScrollBar::add-line:horizontal {
+    background: none;
+    width: 0px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+    background: none;
+    width: 0px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+#Overlay {
+    background-color: #000;
+}
+
+#overlay_mainStackedWidget {
+    background-color: rgba(255, 255, 255, 240);
+
+    border: solid;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#descriptionScrollAreaWidgetContents, #descriptionScrollArea {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#overlay_titleLabel, #overlay_titleLabel2 {
+    color: #222;
+}
+
+#overlay_quitButton, #overlay_quitButton2 {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 4px;
+    border: 0px;
+    image: url(:/textures/cross.png);
+}
+
+#overlay_quitButton:hover, #overlay_quitButton2:hover {
+    image: url(:/textures/cross3.png);
+}
+
+#overlay_toolbarLine, #overlay_toolbarLine2{
+    border: solid;
+    border-color: #888;
+    border-width: 2px;
+}
+
+#nicknameLineEdit, #privateKeyLineEdit, #passwordLineEdit {
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: #bbb;
+
+    color: #000;
+}
+
+#nicknameLineEdit:focus, #privateKeyLineEdit:focus, #passwordLineEdit:focus {
+    border-color: #333;
+}
+
+#nicknameLabel, #privateKeyLabel, #passwordLabel {
+    color: #333;
+}
+
+#showPasswordButton {
+    image: url(:/textures/show_password.png);
+    background-color: rgba(0, 0, 0, 0);
+}
+#showPasswordButton:pressed {
+    image: url(:/textures/show_password2.png);
+}
+
+#nicknameDescrLabel {
+    color: #222;
+
+    margin: 3px;
+}
+
+#filesLabel {
+    color: #222;
+}
+
+#filesListWidget, #descriptionLabel {
+    background-color: rgba(100, 100, 100, 40);
+    color: #333;
+
+    margin: 3px;
+    padding: 5px;
+
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#downloadButton {
+    background-color: #20608b;
+
+    border: solid;
+    border-bottom-width: 2px;
+    border-radius: 5px;
+    border-color: #10507b;
+
+    color: #fff;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#downloadButton:hover {
+    background-color: #30709b;
+}
+
+#downloadButton:pressed {
+    background-color: #10507b;
+    border-bottom-width: 0px;
+}
